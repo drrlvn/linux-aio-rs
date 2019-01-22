@@ -1,0 +1,14 @@
+[package]
+name = "linux-aio-sys"
+version = "0.1.0"
+authors = ["Dror Levin <spatz@psybear.com>"]
+description = "Thin unsafe wrapper for Linux AIO API."
+repository = "https://github.com/drrlvn/linux-aio-sys"
+license = "GPL-3.0-or-later"
+edition = "2018"
+
+[build-dependencies]
+bindgen = "0.47.0"
+
+[dependencies]
+libc = "0.2.47"
